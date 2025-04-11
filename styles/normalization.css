@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Open-Sans";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Bebas-Neue";
+  src: url("../fonts/BebasNeue-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
+}
+.bg {
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.flex-all-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title {
+  font-size: 80px;
+  line-height: 105%;
+  letter-spacing: 0.04rem;
+  font-family: Bebas-Neue;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-family: Bebas-Neue;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.15rem;
+}
+
+.link {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1917;
+  background-color: #ffb548;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+  padding: 15px 20px;
+  display: block;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  font-family: Open-Sans;
+  text-decoration: none;
+}
+.link:hover {
+  background-color: white;
+}
