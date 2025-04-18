@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+    <main class="main">
     <header class="header">
         <div class="container">
         <div class="header__horizontal">
@@ -37,8 +38,7 @@
         </div>
         </div>
     </header>
-    <main>
-        <section class="first-section flex-all-center bg">
+        <section class="first-section section-scroll-snap flex-all-center bg">
             <div class="first-section__swiper swiper">
                 <!-- Additional required wrapper -->
                 <div class="first-section__swiper-wrapper swiper-wrapper">
@@ -53,7 +53,30 @@
                 <h2 class="first-section__title title">ВЫЖИТЬ ЛЮБОЙ ЦЕНОЙ</h2>
                 <span class="first-section__subtitle subtitle">Испытайте новую социальную игру королевская битва</span>
                 <a href="#" class="first-section__link link">Купить сейчас в Steam</a>
-                <a href="#" class="first-section__arrow-down">История <img src="image/scroll down.svg"></a>
+                <a href="#second-section" class="first-section__arrow-down">История <img src="image/scroll down.svg"></a>
+            </div>
+        </section>
+        <section class="second-section section-scroll-snap flex-all-center bg" id="second-section">
+            <div class="second-section__container container">
+                <div class="second-section__content">
+                    <span class="second-section__subtitle subtitle">Социальная игра королевская битва</span>
+                    <h2 class="second-section__title title">Что такое SOS?</h2>
+                    <p class="second-section__text text">В каждом раунде вы и 15 других участников соревнуетесь за то чтобы сбежать со смертельно опасного острова, наполненного монстрами. Хитрость в том, что только трое участников могут остаться в живых. Будете ли вы бежать в одиночку или подружиться с другими участниками, чтобы сбежать? будьте внимательнее. От принятие ваших решений будет зависеть ваша жизнь.</p>
+                </div>
+
+                <div class="second-section__swiper swiper-cards swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress">
+                    <div class="second-section__swiper-wrapper swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="second-section__swiper-slide swiper-slide"><img src="image/bg image 1.png"></div>
+                        <div class="second-section__swiper-slide swiper-slide"><img src="image/bg_image_2.png"></div>
+                        <div class="second-section__swiper-slide swiper-slide"><img src="image/Group 2.png"></div>
+                        <div class="second-section__swiper-slide swiper-slide"><img src="image/Group.png"></div>
+                    </div>
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                </div>
             </div>
         </section>
     </main>
